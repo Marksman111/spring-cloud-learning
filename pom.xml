@@ -11,6 +11,7 @@
     <modules>
         <module>spring-cloud-eureka-server</module>
         <module>spring-cloud-eureka-client</module>
+        <module>service-ribbon</module>
     </modules>
 
     <parent>
