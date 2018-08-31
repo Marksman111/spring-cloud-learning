@@ -12,8 +12,5 @@
         <module name="spring-cloud-learning" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-cloud-eureka" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
