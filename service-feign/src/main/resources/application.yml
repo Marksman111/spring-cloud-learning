@@ -6,6 +6,6 @@ server:
   port: 8765
 spring:
   application:
-    name: server-feign
+    name: service-feign
 
 feign.hystrix.enabled: true
