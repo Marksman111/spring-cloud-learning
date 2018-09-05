@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aecc83f8-45b8-4dae-9b42-80828bbf757e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/service-hi/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/marksman/servicehi/ServiceHiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/test/java/com/marksman/servicehi/ServiceHiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-miya/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-miya/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-miya/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-miya/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-miya/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-miya/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-miya/src/main/java/com/marksman/servicemiya/ServiceMiyaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-miya/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-miya/src/test/java/com/marksman/servicemiya/ServiceMiyaApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/marksman/servicehi/ServiceHiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/marksman/servicehi/ServiceHiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,6 +29,7 @@
     <ignored path="$PROJECT_DIR$/service-zuul/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-sleuth/target/" />
     <ignored path="$PROJECT_DIR$/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/service-miya/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,16 +52,73 @@
         <entry file="file://$PROJECT_DIR$/service-hi/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceHiApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/marksman/servicehi/ServiceHiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-miya/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-miya/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceMiyaApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-miya/src/main/java/com/marksman/servicemiya/ServiceMiyaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+              <folding>
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#1284#1285#0" expanded="true" />
+                <element signature="e#1328#1329#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,9 +159,13 @@
         <option value="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/marksman/servicezuul/filter/MyFilter.java" />
         <option value="$PROJECT_DIR$/spring-cloud-sleuth/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/service-hi/pom.xml" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/marksman/servicehi/ServiceHiApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/service-miya/pom.xml" />
         <option value="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-miya/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-miya/src/main/java/com/marksman/servicemiya/ServiceMiyaApplication.java" />
       </list>
     </option>
   </component>
@@ -110,6 +174,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -136,32 +207,6 @@
               <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -177,7 +222,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-cloud-config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringCloudLearning-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/DevelopTools/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -338,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceZuulApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceHiApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -361,6 +406,26 @@
     <configuration name="ServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.marksman.servicefeign.ServiceFeignApplication" />
+    </configuration>
+    <configuration name="ServiceHiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-hi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marksman.servicehi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.marksman.servicehi.ServiceHiApplication" />
+    </configuration>
+    <configuration name="ServiceMiyaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-miya" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marksman.servicemiya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.marksman.servicemiya.ServiceMiyaApplication" />
     </configuration>
     <configuration name="ServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-ribbon" />
@@ -411,7 +476,15 @@
       <item itemvalue="Spring Boot.ServiceRibbonApplication" />
       <item itemvalue="Spring Boot.ServiceFeignApplication" />
       <item itemvalue="Spring Boot.ServiceZuulApplication" />
+      <item itemvalue="Spring Boot.ServiceMiyaApplication" />
+      <item itemvalue="Spring Boot.ServiceHiApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceMiyaApplication" />
+        <item itemvalue="Spring Boot.ServiceHiApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -432,14 +505,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535795289666</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="zipkin">
+      <created>1536134716004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536134716004</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17892000" />
+    <option name="totallyTimeSpent" value="21215000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -517,7 +597,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zuul 路由" />
-    <option name="LAST_COMMIT_MESSAGE" value="zuul 路由" />
+    <MESSAGE value="zipkin" />
+    <option name="LAST_COMMIT_MESSAGE" value="zipkin" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/pom.xml">
@@ -681,33 +762,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-hi/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-miya/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/marksman/servicehi/ServiceHiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-miya/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-miya/src/main/java/com/marksman/servicemiya/ServiceMiyaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1328#1329#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>service-hi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

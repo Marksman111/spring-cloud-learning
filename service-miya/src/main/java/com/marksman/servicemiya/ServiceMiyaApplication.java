@@ -1,6 +1,7 @@
-package com.marksman.servicehi;
+package com.marksman.servicemiya;
 
 import brave.sampler.Sampler;
+import com.sun.org.apache.regexp.internal.RE;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,16 +13,15 @@ import org.springframework.web.client.RestTemplate;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
 @RestController
 @SpringBootApplication
-public class ServiceHiApplication {
+public class ServiceMiyaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceHiApplication.class, args);
+        SpringApplication.run(ServiceMiyaApplication.class, args);
     }
 
-    private static final Logger LOG = Logger.getLogger(ServiceHiApplication.class.getName());
+    private static final Logger LOG = Logger.getLogger(ServiceMiyaApplication.class.getName());
 
     @Autowired
     private RestTemplate restTemplate;
@@ -32,23 +32,19 @@ public class ServiceHiApplication {
     }
 
     @RequestMapping("/hi")
-    public String callHome(){
-        LOG.log(Level.INFO,"calling trace service-hi");
-        return restTemplate.getForObject("http://localhost:8989/miya",String.class);
+    public String home(){
+        LOG.log(Level.INFO,"hi is being called");
+        return "hi I'm miya!";
     }
 
-    @RequestMapping("/info")
+    @RequestMapping("/miya")
     public String info(){
-        LOG.log(Level.INFO,"calling trace service-hi");
-        return "I'm service-hi";
+        LOG.log(Level.INFO,"info is being called");
+        return restTemplate.getForObject("http://localhost:8988/info",String.class);
     }
 
     @Bean
-    public Sampler defaultSampler(){
+    public Sampler defaultSampler() {
         return Sampler.ALWAYS_SAMPLE;
     }
-
-
-
-
 }

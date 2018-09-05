@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/service-feign/pom.xml" />
         <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/service-hi/pom.xml" />
+        <option value="$PROJECT_DIR$/service-miya/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
