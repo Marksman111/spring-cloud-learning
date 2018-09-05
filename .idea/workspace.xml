@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aecc83f8-45b8-4dae-9b42-80828bbf757e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/service-zuul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/marksman/servicezuul/ServiceZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/marksman/servicezuul/filter/MyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-zuul/src/test/java/com/marksman/servicezuul/ServiceZuulApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="aecc83f8-45b8-4dae-9b42-80828bbf757e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka/target/" />
@@ -83,11 +66,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="160" />
-    <option name="y" value="106" />
-    <option name="width" value="1552" />
-    <option name="height" value="839" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -418,13 +401,21 @@
       <updated>1535685137776</updated>
       <workItem from="1535685139347" duration="8414000" />
     </task>
+    <task id="LOCAL-00001" summary="zuul 路由">
+      <created>1535795289666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535795289666</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14440000" />
+    <option name="totallyTimeSpent" value="15859000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -465,6 +456,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zuul 路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="zuul 路由" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/pom.xml">
