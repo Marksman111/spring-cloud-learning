@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aecc83f8-45b8-4dae-9b42-80828bbf757e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application-peer1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application-peer2.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/marksman/servicehi/ServiceHiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/marksman/servicehi/ServiceHiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application-peer1.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application-peer2.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,35 +29,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application-peer1.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application-peer1.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-peer2.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application-peer2.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,7 +50,6 @@
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/marksman/springcloudeurekaserver/SpringCloudEurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-client/src/main/java/com/marksman/springcloudeurekaclient/SpringCloudEurekaClientApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
@@ -89,15 +64,16 @@
         <option value="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/marksman/servicezuul/filter/MyFilter.java" />
         <option value="$PROJECT_DIR$/spring-cloud-sleuth/pom.xml" />
-        <option value="$PROJECT_DIR$/service-hi/pom.xml" />
-        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/marksman/servicehi/ServiceHiApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/service-miya/pom.xml" />
-        <option value="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-miya/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-miya/src/main/java/com/marksman/servicemiya/ServiceMiyaApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application-peer1.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application-peer2.yml" />
+        <option value="$PROJECT_DIR$/service-hi/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/marksman/servicehi/ServiceHiApplication.java" />
       </list>
     </option>
   </component>
@@ -163,6 +139,66 @@
               <item name="service-hi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servicehi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudeurekaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -204,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceMiyaApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceHiApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -264,6 +300,16 @@
       <module name="spring-cloud-eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.marksman.springcloudeurekaclient.SpringCloudEurekaClientApplication" />
     </configuration>
+    <configuration name="SpringCloudEurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marksman.springcloudeurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.marksman.springcloudeurekaserver.SpringCloudEurekaServerApplication" />
+    </configuration>
     <configuration name="SpringCloudEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cloud-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.marksman.springcloudeurekaserver.SpringCloudEurekaServerApplication" />
@@ -299,11 +345,13 @@
       <item itemvalue="Spring Boot.ServiceZuulApplication" />
       <item itemvalue="Spring Boot.ServiceMiyaApplication" />
       <item itemvalue="Spring Boot.ServiceHiApplication" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaServerApplication (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServiceMiyaApplication" />
         <item itemvalue="Spring Boot.ServiceHiApplication" />
+        <item itemvalue="Spring Boot.SpringCloudEurekaServerApplication (1)" />
+        <item itemvalue="Spring Boot.ServiceMiyaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +367,7 @@
       <updated>1535685137776</updated>
       <workItem from="1535685139347" duration="8414000" />
       <workItem from="1536236218028" duration="1266000" />
-      <workItem from="1536239233845" duration="269000" />
+      <workItem from="1536239233845" duration="2849000" />
     </task>
     <task id="LOCAL-00001" summary="zuul 路由">
       <created>1535795289666</created>
@@ -335,11 +383,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536134716004</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="高可用注册中心">
+      <created>1536239528860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536239528860</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26219000" />
+    <option name="totallyTimeSpent" value="28799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -357,6 +412,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5966543" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -365,7 +421,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15036379" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24009702" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -374,7 +430,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
@@ -422,7 +477,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zuul 路由" />
     <MESSAGE value="zipkin" />
-    <option name="LAST_COMMIT_MESSAGE" value="zipkin" />
+    <MESSAGE value="高可用注册中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="高可用注册中心" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/service-ribbon/pom.xml">
@@ -568,24 +624,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml" />
     <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/marksman/springcloudeurekaserver/SpringCloudEurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -695,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-hi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -723,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/marksman/servicehi/ServiceHiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-miya/src/main/java/com/marksman/servicemiya/ServiceMiyaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
@@ -747,14 +775,47 @@
     <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application-peer2.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/marksman/springcloudeurekaserver/SpringCloudEurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/marksman/servicehi/ServiceHiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2419#2420#0" expanded="true" />
+            <element signature="e#2458#2459#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
